@@ -1,5 +1,7 @@
 def withdraw(account, amount):
 
-    account.balance -= amount
+    fee = 50
+
+    account.balance -= amount + fee
 
     return account.balance
